@@ -1,0 +1,23 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.start_game {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.winner {
+  display: flex;
+  justify-content: center;
+}
