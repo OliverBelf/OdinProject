@@ -1,0 +1,12 @@
+.buttons .toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: "grey";
+}
+
+.display {
+  background-color: "white";
+}
