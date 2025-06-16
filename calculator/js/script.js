@@ -49,7 +49,15 @@ function displayArr() {
 }
 
 function appendStr(str) {
-  symbol_press.push(str);
+  if (operators.includes(str)) {
+    if (operators.includes(symbol_press[symbol_press.length - 1])) {
+      symbol_press[symbol_press.length - 1] = str;
+    } else {
+      symbol_press.push(str);
+    }
+  } else {
+    symbol_press.push(str);
+  }
   displayArr();
 }
 
